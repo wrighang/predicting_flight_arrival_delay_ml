@@ -8,11 +8,13 @@ To develop a model to predict flight arrival delays for flights departing from A
 - Eylem Yildirim
 - Pushpa Chhetri
 
-## Dataset
-[Bureau of Transportation Statistics: On-Time : Reporting Carrier On-Time Performance](https://www.transtats.bts.gov/DL_SelectFields.aspx?gnoyr_VQ=FGJ&QO_fu146_anzr=b0-gvzr)
+
 
 ## Data Visualizations
 
 ## Machine Model Learning
 
 ## 
+
+## Resources
+Dataset: [Bureau of Transportation Statistics: On-Time : Reporting Carrier On-Time Performance](https://www.transtats.bts.gov/DL_SelectFields.aspx?gnoyr_VQ=FGJ&QO_fu146_anzr=b0-gvzr)
