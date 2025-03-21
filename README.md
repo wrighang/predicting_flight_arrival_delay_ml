@@ -10,15 +10,7 @@ To develop a model to predict flight arrival delays for flights departing from A
 
 ## Data Visualizations
 
-## Machine Learning Models Applied:
-1. Random Forest Model
-2. Gradient Boosting Model
-3. Decision-Tree Model
-4. K-Neighbors Model
-5. Logistic Regression
-6. Neural Network Model
 
- Random Forest was the model that achieved the best performance so we focused on this model and optimized the hyperparameters to increase the accuracy of the results. We not only looked at accuracy, but also looked at Precision and Recall rates. 
 
 ## Preprocessing Data
 **DATA INTEGRATION**
@@ -61,20 +53,31 @@ To develop a model to predict flight arrival delays for flights departing from A
 18. SC_HOUR: Scheduled hour flight departing
 19. SEASON: Based on month - Fall, Winter, Spring, Summer
 
-## Random Forest Model
-Random Forest Model was applied using OOB score to find the optimal number of trees to use and capture loss over iterations. 
+## Machine Learning Models Applied:
+1. Random Forest Model
+2. Gradient Boosting Model
+3. Decision-Tree Model
+4. K-Neighbors Model
+5. Logistic Regression
+6. Neural Network Model
 
-## Neural Network Model
-Created a function to create the best model. Tested different values for hyperparameters to choose the best ones.
-- activation
-- batch size
-- dropouts on each hidden layer
-- learning rate
-- L2 regularization
-- early stopping
+ On our initial test, Random Forest model achieved the best and consistent performance. We looked at a few different scores:
+ - Accuracy score
+ - Out-Of-Bag Score (for Random Forest)
+ - Precision and Recall Scores
 
-Based on different models we ran, Neural Network was the model we chose. 
-Accuracy: 0.87
+   
+### Random Forest Model Optimization
+We applied variety of optimization techniques:
+1. Hyperparameter Tuning
+2. Feature Selection:
+    - Feature Importance
+    - Spearman Correlation
+4. SMOTE to handle class imbalance
+
+Let's see comparison of successful results:
+![image](https://github.com/wrighang/predicting_flight_arrival_delay_ml/blob/main/Resources/rf_results.png)
+
 
 
 ## Resources
