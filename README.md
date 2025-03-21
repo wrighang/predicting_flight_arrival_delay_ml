@@ -10,9 +10,27 @@ To develop a model to predict flight arrival delays for flights departing from A
 
 ## Tools/Technologies
 - Python, Tableau
-- Pandas, Matplotlib, Seaborn, Tensorflow, sci-kit learn
+- Pandas, Matplotlib, Tableau, Seaborn, Tensorflow, sci-kit learn
 
 ## Data Visualizations
+Tableau visuals helped to understand dataset more from trends perspective.
+- Operational Carrier Frequency:
+                   
+     Displays the number of flights operated by each airline (Op Unique Carrier vs. Count of Op Carrier Fl Num).
+
+- Causes for arrival Delays
+    Compares delay causes (impacts of Weather, Security, Carrier, NAS, Late Aircraft delay) by count of flights.
+
+- Departure Delays by Origin City:
+
+    Examines how departure delays vary among Arizona cities (Avg Dep Delay vs. Origin City).
+
+- Arrival Delays by Day of the Week:
+
+    Identifies which days experience the most delays (Avg Arr Delay vs. Day of the Week).
+- Arrival Delays Throughout the Day:
+
+    Analyzes how delays change in a 24-hour window (Avg Arr Delay vs. Time of Day).
 
 ## Preprocessing Data
 **DATA INTEGRATION**
