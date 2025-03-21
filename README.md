@@ -36,6 +36,11 @@ Tableau visuals helped to understand dataset more from trends perspective.
 
     Analyzes how delays change in a 24-hour window (Avg Arr Delay vs. Time of Day).
 
+[Flight Arrival Delay Insight](https://public.tableau.com/app/profile/pushpa.chhetri/viz/Project4Story1/Story1?publish=yes)<br/>
+[Arrival Delay Insight throught the Day](https://public.tableau.com/app/profile/pushpa.chhetri/viz/Project4Story2/Story2?publish=yes)<br/>
+[Arrival Delay and Delay Causes Insights](https://public.tableau.com/app/profile/pushpa.chhetri/viz/Project4story3_17424949752860/Story3?publish=yes)<br/>
+
+
 ## Preprocessing Data
 **DATA INTEGRATION**
 - Merged Monthly Files: Combined monthly csv files into a single dataset.
