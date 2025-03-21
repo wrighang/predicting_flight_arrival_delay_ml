@@ -9,8 +9,8 @@ To develop a model to predict flight arrival delays for flights departing from A
 - Pushpa Chhetri
 
 ## Tools/Technologies
-Python, Tableau
-Pandas, Matplotlib, Tensorflow, sci-kit learn
+- Python, Tableau
+- Pandas, Matplotlib, Seaborn, Tensorflow, sci-kit learn
 
 ## Data Visualizations
 
