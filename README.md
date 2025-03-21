@@ -21,6 +21,22 @@ To develop a model to predict flight arrival delays for flights departing from A
  Random Forest was the model that achieved the best performance so we focused on this model and optimized the hyperparameters to increase the accuracy of the results. We not only looked at accuracy, but also looked at Precision and Recall rates. 
 
 ## Preprocessing Data
+**DATA INTEGRATION**
+- Merged Monthly Files: Combined monthly csv files into a single dataset.
+- Filtered for Arizona Departures: Retained columns where ORIGIN_STATE_ABR = "AZ".
+**FEATURE ENGINEERING ENHANCEMENTS**
+- Introduced new columns to enhance analysis: 
+ - ARR_DELAY: 0 = on-time, 1 = delayed
+ - DAY_PART: Departure Time to “Early Morning”, “Morning”, “Midday”, “Afternoon”, “Evening”, “Night”, “Late Night”
+ - FLIGHT_TRAFFIC: Count of flights every hour leaving the origin airport
+ - SEASON: Based on month - Fall, Winter, Spring, Summer
+ - SC_DEP_TIME: Scheduled departure time
+ - SC_HOUR: Scheduled hour flight departing
+**DATA CLEANING & ENCODING**
+- DEPT_TIME - date time format & removed missing values.
+- Mapped Carrier Codes: Added airline names for improved readability.
+- Encoding Data: Applied label encoding to categorical variables.
+
 
 ## Target and Features for Our Model
 **Target:** ARR_DELAY: 0 = on-time, 1 = delayed
