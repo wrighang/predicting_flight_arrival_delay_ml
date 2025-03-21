@@ -50,7 +50,7 @@ To develop a model to predict flight arrival delays for flights departing from A
 11. ORIGIN: Origin Airport
 12. TAXI_OUT: Taxi out time (minutes)
 13. WHEELS_OFF: Time aircraft took off <br><br>
-**NEW COLUMNS ADDED FOR INCREASED GRANULARITY** <br>
+**NEW COLUMNS ADDED FOR INCREASED GRANULARITY:** 
 15. DAY_PART: Departure Time to “Early Morning”, “Morning”, “Midday”, “Afternoon”, “Evening”, “Night”, “Late Night”
 16. FLIGHT TRAFFIC: Count of flights every hour leaving the origin airport
 17. OP_UNIQUE CARRIER: Carrier mapped from carrier code to carrier name
