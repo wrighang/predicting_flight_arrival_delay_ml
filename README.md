@@ -83,6 +83,8 @@ Comparison of successful results:
 ![image](https://github.com/wrighang/predicting_flight_arrival_delay_ml/blob/main/Resources/rf_results.png)
 
 ### Best Model
+Best Model is the Random Forest Model after using SMOTE to balance the data. It aligned better with our objective which was to correctly identify delayed flights.
+
 **Overall Accuracy:** Model accurately classifies 89% of flights. <br>
 **OOB Score:** A high 91% suggests strong performance on unseen data. Model generalizes well.
 
