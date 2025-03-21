@@ -9,8 +9,8 @@ To develop a model to predict flight arrival delays for flights departing from A
 - Pushpa Chhetri
 
 ## Deliverable(s)
-[Data Cleaning and Analysis](https://github.com/wrighang/predicting_flight_arrival_delay_ml/blob/main/Flight_Delays.ipynb)
-[Presentation Slide Deck](https://github.com/wrighang/predicting_flight_arrival_delay_ml/blob/main/Flight%20Delays.pdf)
+[Data Cleaning and Analysis](https://github.com/wrighang/predicting_flight_arrival_delay_ml/blob/main/Flight_Delays.ipynb)<br/>
+[Presentation Slide Deck](https://github.com/wrighang/predicting_flight_arrival_delay_ml/blob/main/Flight%20Delays.pdf)<br/>
 
 ## Tools/Technologies
 - Python, Tableau
