@@ -79,7 +79,7 @@ We applied variety of optimization techniques:
     - Spearman Correlation
 4. SMOTE to handle class imbalance
 
-Let's see comparison of successful results:
+Comparison of successful results:
 ![image](https://github.com/wrighang/predicting_flight_arrival_delay_ml/blob/main/Resources/rf_results.png)
 
 ### Best Model
